@@ -1,9 +1,9 @@
 class PokemonCli < Formula
   desc "Command-line interface for Pokémon"
   homepage "https://github.com/TD-LiXiang/pokemon-cli"
-  url "https://github.com/TD-LiXiang/pokemon-cli/releases/download/0.1.1/pokemon"
-  version "0.1.1"
-  sha256 "5aa47f558ea79185c10396a46cf398ab674d190aeb439361f21aba56235ed57f"
+  url "https://github.com/TD-LiXiang/pokemon-cli/releases/download/v1.0.0/pokemon"
+  version "1.0.0"
+  sha256 "a7e4bdadd4536550f3daed786f18cd6b9ddf593881344a2709ae4e73766580a5"
 
   def install
     bin.install "pokemon"
